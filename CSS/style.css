@@ -23,7 +23,15 @@ header {
     }
 
 
-    /*BUTTONS*/
+.jump{
+    height: 895px;
+    width: 954px;
+    left: 1722.1619873046875px;
+    top: -166.53488731384277px;
+    border-radius: 0px;
+}
+
+
 .roundempty {
 border: 1px solid #B57AD2;
 box-sizing: border-box;
@@ -43,8 +51,6 @@ color: white;
 
 
 .founder{
-
-
 background: linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
 border-radius: 6px;
 
@@ -63,14 +69,18 @@ border-radius: 6px;
 }
 
 .twopeoplewithacomputer{
-
+background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+border-radius: 6px;
 }
+
+
 
 li{
 }
 
 h2{
-    text-align: center;
+text-align: center;
 }
 
 .ourteam{
@@ -79,6 +89,6 @@ background-color:linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(18
 }
 
 footer {
-    background-color: #857AD2;
-    color: white;
+background-color: #857AD2;
+color: white;
 }
