@@ -1,0 +1,84 @@
+html{
+    font-size:62,5%;
+    box-sizing: border-box;
+}
+*,
+*::before
+*:after{
+    box-sizing: inherit;
+}
+
+.body{
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+header {
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+        margin: 0 auto;
+        max-width: 1400px;
+        padding: 36px 24px 24px;
+        position: relative;
+        width: 100%;
+    }
+
+
+    /*BUTTONS*/
+.roundempty {
+border: 1px solid #B57AD2;
+box-sizing: border-box;
+border-radius: 23px;
+background-color: white;
+color: #B57AD2;
+    }
+
+.roundedpurple {
+border: 1px solid #B57AD2;
+box-sizing: border-box;
+border-radius: 23px;
+background-color: #B57AD2;
+color: white;
+}
+
+
+
+.founder{
+
+
+background: linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+border-radius: 6px;
+
+}
+
+.computer{
+    width: 100%;
+margin: 0 auto;
+box-sizing: inherit;
+}
+
+.fourpeoplewithacomputer{
+background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+border-radius: 6px;
+}
+
+.twopeoplewithacomputer{
+
+}
+
+li{
+}
+
+h2{
+    text-align: center;
+}
+
+.ourteam{
+background-image:url(img/Oval.svg);
+background-color:linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+}
+
+footer {
+    background-color: #857AD2;
+    color: white;
+}
