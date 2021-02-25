@@ -1,47 +1,71 @@
-html{
-    font-size:62,5%;
-    box-sizing: border-box;
-}
-*,
-*::before
-*:after{
-    box-sizing: inherit;
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 78px;
+    background-color: white;
 }
 
-.body{
-    font-family: 'Helvetica Neue',Arial,sans-serif;
+body{
+    font-family: 'HelveticaNeue',Arial,sans-serif;
 }
+
 
 header div{
 display:inline-block;
-padding-right: 10px;
-    }
+ }
 
     .logo{
-        padding-left: 50px;
-        padding-top: 9px;
-        padding-bottom: 1px; 
+        padding-left: 140.79px;
+        padding-top: 25px;
+        padding-bottom: 25px; 
     }
 
-    nav ul li{
-      margin: 0 30px; 
+    header nav{
+        padding-left: 673px;
+        padding-top: 25px;
+        padding-bottom: 25px; 
     }
 
 
 
-
-.row{
-
-}
-
-.text-center {
-    text-align: center
+#achievements{
+    text-align: center;
 }
 
 
-.jump{
-    width: ;
+.row1{
+float: right;
 }
+
+
+
+
+h1 {
+    position: absolute;
+    width: 650px;
+    height: 84px;
+    left: 139px;
+    top: 300px;
+    font-size: 40px;
+    line-height: 42px;
+    color: #3C3C3C;
+}
+
+
+.underh1 {
+position: absolute;
+width: 426px;
+height: 28px;
+left: 139px;
+top: 417,26;
+font-size: 20px;
+line-height: 28px;
+color: #3C3C3C;
+margin-top: 453px;
+}
+
+
 
 
 .roundempty {
@@ -52,14 +76,31 @@ background-color: white;
 color: #B57AD2;
     }
 
-.roundedpurple {
+.roundedpurple1 {
 border: 1px solid #B57AD2;
 box-sizing: border-box;
 border-radius: 23px;
 background-color: #B57AD2;
 color: white;
+width: 158px;
+height: 47px;
+margin-top:576px;
+margin-left: 128px;
 }
 
+
+
+
+
+.text-center {
+    text-align: center
+}
+
+
+
+.photo1 {
+    width: 100px;
+}
 
 
 .founder{
@@ -68,11 +109,7 @@ border-radius: 6px;
 
 }
 
-.computer{
-    width: 100%;
-margin: 0 auto;
-box-sizing: inherit;
-}
+
 
 .withcomputers{
 justify-content: space-between 
