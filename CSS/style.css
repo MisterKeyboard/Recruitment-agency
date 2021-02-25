@@ -9,26 +9,38 @@ html{
 }
 
 .body{
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 
-header {
-    background-color:rgb(255, 255, 255);
-    display: inline-block;
-        margin: 0 auto;
-        max-width: 1400px;
-        padding: 36px 24px 24px;
-        position: relative;
-        width: 100%;
+header div{
+display:inline-block;
+padding-right: 10px;
+    }
+
+    .logo{
+        padding-left: 50px;
+        padding-top: 9px;
+        padding-bottom: 1px; 
+    }
+
+    nav ul li{
+      margin: 0 30px; 
     }
 
 
+
+
+.row{
+
+}
+
+.text-center {
+    text-align: center
+}
+
+
 .jump{
-    height: 895px;
-    width: 954px;
-    left: 1722.1619873046875px;
-    top: -166.53488731384277px;
-    border-radius: 0px;
+    width: ;
 }
 
 
@@ -62,17 +74,20 @@ margin: 0 auto;
 box-sizing: inherit;
 }
 
-.fourpeoplewithacomputer{
+.withcomputers{
+justify-content: space-between 
+}
+
+.fourpeoplewithacomputer ,.twopeoplewithacomputer{
+width: 56Opx;
+height: 684px;
+top: 6px;
 background: #FFFFFF;
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 border-radius: 6px;
 }
 
-.twopeoplewithacomputer{
-background: #FFFFFF;
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-border-radius: 6px;
-}
+
 
 
 
@@ -84,11 +99,12 @@ text-align: center;
 }
 
 .ourteam{
-background-image:url(img/Oval.svg);
-background-color:linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+background-image: url("img/Oval.svg");
+background-color:;
 }
 
-footer {
+
+footer{
 background-color: #857AD2;
 color: white;
 }
