@@ -197,7 +197,9 @@ z-index: 9;
     width: 235px;
     height: 264px;
     display:inline-block;
-    
+    overflow: hidden;
+margin-right: -5px;
+margin-bottom: 61px;
 }
 
 .understand, .flexible{
