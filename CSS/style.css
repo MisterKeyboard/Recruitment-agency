@@ -5,7 +5,7 @@ header{
     height: 28px;
     background-color: white;
     z-index: 10;
-    top: -2px;
+    top: -8px;
 }
 
 body{
@@ -13,11 +13,8 @@ body{
 }
 
 
-header div{
-display:inline-block;
- }
-
     .logo{
+        position: absolute;
         height: 24px;
         width: 96px;
         padding-left: 64px;
@@ -25,25 +22,32 @@ display:inline-block;
         padding-bottom: 2px; 
     }
 
-    header nav{
-        padding-left: 673px;
-        padding-top: 2px;
-    }
+
+.menutop{
+    position: absolute;
+    padding-left: 510px;
+    padding-top: 2px;
 
 
-
-#achievements{
-    text-align: center;
 }
+
+.menutop a{
+    margin-left: 26px;
+    color: #3C3C3C;
+    font-size: 12px;
+}
+
 
 
 
 #section1{
     position: relative;
 }
+
 .row1{
 float: right;
-margin-top: -15px;
+margin-top: -12px;
+margin-bottom: -211px;
 }
 
 
@@ -54,9 +58,8 @@ h1 {
     width: 416px;
     height: 48px;
     left: 64px;
-    top: 101px;
+    top: 87px;
     font-size: 25px;
-    line-height: 42px;
     color: #3C3C3C;
 }
 
@@ -66,37 +69,44 @@ h1 {
     width: 381px;
     height: 28px;
     left: 64px;
-    top: 417,26;
     font-size: 13px;
     line-height: 28px;
     color: #3C3C3C;
-    margin-top: 213px;
+    margin-top: 180px;
 }
-}
 
 
 
 
-.roundempty {
+
+.roundempty { 
 border: 1px solid #B57AD2;
 box-sizing: border-box;
 border-radius: 23px;
 background-color: white;
 color: #B57AD2;
+vertical-align: 0px;
+margin-left: 850px;
+margin-top: 4px;
     }
 
+
 .roundedpurple1 {
-border: 1px solid #B57AD2;
-box-sizing: border-box;
-border-radius: 23px;
-background-color: #B57AD2;
-color: white;
-width: 158px;
-height: 47px;
-margin-top:576px;
-margin-left: 128px;
+    border: 1px solid #B57AD2;
+    box-sizing: border-box;
+    border-radius: 23px;
+    background-color: #B57AD2;
+    color: white;
+    width: 158px;
+    height: 47px;
+    margin-top: 256px;
+    margin-left: 64px;
 }
 
+
+#achievements{
+    text-align: center;
+}
 
 .text-center {
     text-align: center;
@@ -105,8 +115,7 @@ margin-left: 128px;
 
 
 .withcomputers{
-justify-content: space-between 
-
+display: inline-block
 }
 
 
@@ -119,15 +128,7 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 border-radius: 6px;
 }
 
-.fourpeoplewithacomputer{
-    margin-left:139px;
-    margin-right:auto
-}
 
-.twopeoplewithacomputer{
-    margin-right: 139px;
-    margin-left:auto;
-}
 
 
 .photo1 ,.photo2{
