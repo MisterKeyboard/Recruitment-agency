@@ -1,9 +1,11 @@
 
 header{
-    
+    position: relative;
     width: 100%;
-    height: 78px;
+    height: 28px;
     background-color: white;
+    z-index: 10;
+    top: -2px;
 }
 
 body{
@@ -16,15 +18,16 @@ display:inline-block;
  }
 
     .logo{
-        padding-left: 140.79px;
-        padding-top: 25px;
-        padding-bottom: 25px; 
+        height: 24px;
+        width: 96px;
+        padding-left: 64px;
+        padding-top:2px;
+        padding-bottom: 2px; 
     }
 
     header nav{
         padding-left: 673px;
-        padding-top: 25px;
-        padding-bottom: 25px; 
+        padding-top: 2px;
     }
 
 
@@ -34,9 +37,13 @@ display:inline-block;
 }
 
 
+
+#section1{
+    position: relative;
+}
 .row1{
 float: right;
-margin-right: -17px;
+margin-top: -15px;
 }
 
 
@@ -44,26 +51,27 @@ margin-right: -17px;
 
 h1 {
     position: absolute;
-    width: 650px;
-    height: 84px;
-    left: 139px;
-    top: 300px;
-    font-size: 40px;
+    width: 416px;
+    height: 48px;
+    left: 64px;
+    top: 101px;
+    font-size: 25px;
     line-height: 42px;
     color: #3C3C3C;
 }
 
 
 .underh1 {
-position: absolute;
-width: 426px;
-height: 28px;
-left: 139px;
-top: 417,26;
-font-size: 20px;
-line-height: 28px;
-color: #3C3C3C;
-margin-top: 453px;
+    position: absolute;
+    width: 381px;
+    height: 28px;
+    left: 64px;
+    top: 417,26;
+    font-size: 13px;
+    line-height: 28px;
+    color: #3C3C3C;
+    margin-top: 213px;
+}
 }
 
 
