@@ -96,6 +96,16 @@ margin-top: 4px;
     margin-left: 64px;
 }
 
+.roundedpurple2 {
+    border: 1px solid #B57AD2;
+    box-sizing: border-box;
+    border-radius: 23px;
+    background-color: #B57AD2;
+    color: white;
+    width: 158px;
+    height: 47px;
+    margin-left: 20px;
+}
 
 
 /* SECTION 1 */
@@ -169,6 +179,9 @@ margin-top: 5px;
     margin-top: 5px;
 }
 
+.fourpeoplewithacomputer P ,.twopeoplewithacomputer P{
+    margin-left: 20px;
+}
 
 
 
