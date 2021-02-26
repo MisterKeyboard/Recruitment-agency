@@ -184,6 +184,43 @@ margin-top: 5px;
 }
 
 
+/* SECTION 3 */
+
+.three {
+    position: absolute;
+width: 705px;
+margin-left: 159.50px;
+z-index: 9;
+}
+
+.understand, .start, .flexible{
+    width: 235px;
+    height: 264px;
+    display:inline-block;
+    
+}
+
+.understand, .flexible{
+background-color: #b57ad2;
+margin-top: 200px;
+}
+
+.start{
+    background-color:#3490CF;
+    ;
+}
+
+.row3{
+    position:relative
+}
+
+.understand{
+    margin-left: 159.50px;
+}
+
+
+
+
 
 /* SECTION 5 */
 .founder{
