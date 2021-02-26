@@ -142,10 +142,11 @@ border-radius: 6px;
 
 ul{
     list-style: none;
+line-height: 30px;
 }
 
-li::before{content: "●";color: #B57AD2;
-    margin-left: 10px;
+li::before{
+    content: "●";color: #B57AD2;
 }
 
 
