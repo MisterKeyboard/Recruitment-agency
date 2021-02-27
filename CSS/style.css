@@ -1,4 +1,5 @@
 /* HEADER */
+
 header{
     position: relative;
     width: 100%;
@@ -12,7 +13,6 @@ body{
     font-family: 'HelveticaNeue',Arial,sans-serif;
 }
 
-
     .logo{
         position: absolute;
         height: 24px;
@@ -21,7 +21,6 @@ body{
         padding-top:2px;
         padding-bottom: 2px; 
     }
-
 
 .menutop{
     position: absolute;
@@ -40,18 +39,10 @@ body{
 
 
 
-
-
-
 /* TITLE PARAGRAPHS AND BUTTONS*/
-
 
 .sectiontitle{
     text-align: center;
-    }
-
-    h3{
-        text-align: center;
     }
 
 
@@ -75,10 +66,6 @@ color: black;
     margin-bottom: 33px;
 }
 
-
-
-
-
 .roundempty { 
 border: 1px solid #B57AD2;
 box-sizing: border-box;
@@ -89,7 +76,6 @@ vertical-align: 0px;
 margin-left: 850px;
 margin-top: 4px;
     }
-
 
 .roundedpurple1 {
     border: 1px solid #B57AD2;
@@ -126,7 +112,11 @@ margin-top: 4px;
     margin-bottom: 21px;
 }
 
+
+
+
 /* SECTION 1 ABOUT US*/
+
 #section1{
     position: relative;
 }
@@ -146,7 +136,6 @@ h1 {
     margin-top: -12px;
     margin-bottom: -211px;
     }
-
     
 .photojump{
     width:544px;
@@ -154,16 +143,17 @@ h1 {
     margin-top:-251px;
     }
 
-
 #achievements{
     text-align: center;
 }
-
 
 .lending{
     width: 896px;
     margin-bottom: 20px;
 }
+
+
+
 
 /* SECTION 2 OUR SERVICES */
 
@@ -176,9 +166,6 @@ h1 {
     margin-bottom: 25px;
 }
 
-
-
-
 .fourpeoplewithacomputer ,.twopeoplewithacomputer{
 display: inline-block;
 width: 378px;
@@ -189,9 +176,6 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 border-radius: 6px;
 }
 
-
-
-
 ul{
     list-style: none;
 line-height: 30px;
@@ -200,8 +184,6 @@ line-height: 30px;
 li::before{
     content: "●";color: #B57AD2;
 }
-
-
 
 .photo1 ,.photo2{
     width: 378px;
@@ -226,6 +208,8 @@ margin-top: 5px;
 }
 
 
+
+
 /* SECTION 3 OUR PROCRESS*/
 
 .three {
@@ -235,12 +219,12 @@ margin-left: 145.5px;
 z-index: 9;
 }
 
-
 .hprocress{
     font-size: 15px;
     margin-top: 101px;
     margin-bottom: 36px;
     color: white;
+    text-align: center;
 }
 
 .understand, .start, .flexible{
@@ -256,8 +240,6 @@ margin-bottom: 61px;
 background-color: #b57ad2;
 margin-top:116px;
 }
-
-
 
 .start{
     background-color:#3490CF;
@@ -276,12 +258,11 @@ margin-top:116px;
 margin-left: 26px;
 }
 
-
-
-
 .understand{
     margin-left: 146.50px;
 }
+
+
 
 
 /* SECTION 4 OUR SECRET SAUCE*/
@@ -301,11 +282,13 @@ margin-left: 26px;
     margin-bottom: 32px;
     }
 
-
     .staying{
         margin-left: 143.50px;
     }
 
+.hsauce{
+    text-align:center ;
+}
 
     .psauce{
         font-size: 11px;
@@ -314,11 +297,13 @@ margin-left: 26px;
         margin-left: 26px;
     }
 
-
 .imagesection4{
     height: 120px;
     margin-left: 50px;
 }
+
+
+
 
 /* SECTION 5 FOUDER'S MESSAGE*/
 
@@ -351,6 +336,7 @@ padding-bottom: 37px;
 }
 
 
+
 /* LOGOS CUSTOMERS*/
 
 .logoscustomers{
@@ -359,24 +345,20 @@ padding-bottom: 37px;
 }
 
 
+
+
 /* SECTION 6 OUR TEAM*/
 
 .ourteam{
     position: relative;
-}
-
-
-.oval{
-position: absolute;
-
-width: 1024px;
-height: 576px;
+    background-image:url(/img/Oval.svg) ;
+    background-size: 1024px;
+    height: 535px;
 }
 
 .titleteam{
-    
     text-align: center;
-    padding-top: 31px;
+    padding-top: 11px;
 }
 
 .psectionteam{
@@ -385,7 +367,6 @@ font-size: 13px;
 line-height: 28px;
 color: black;
 text-align: center;
-
 }
 
 .cartoon{
@@ -397,16 +378,43 @@ text-align: center;
 .teamfive{
     width: 736px;
     margin-left: 132px;
-    margin-bottom: 86px;
     margin-top: -170px;
 }
+
+
 
 
 /* SECTION 7 OUR SUCESS STORIES*/
 
 .increas{
     float: right;
+    width: 467px;
 }
+
+.h2success{
+    text-align: center;
+padding-top: 32px;
+}
+
+.psuccess{
+    font-size: 12px;
+    line-height: 6px;
+    padding-top: 5px;
+    margin-left: 26px;
+}
+
+.element230{
+
+}
+
+.element200{
+
+}
+
+.element160{
+
+}
+
 
 
 
@@ -419,6 +427,9 @@ text-align: center;
 .texttalk{
 
 }
+
+
+
 
 /* FOOTER */
 
