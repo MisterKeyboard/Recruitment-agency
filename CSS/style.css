@@ -58,6 +58,13 @@ h2{
     text-align: center;
     }
 
+    h3{
+        text-align: center;
+    }
+
+.hsauce{
+    color: white;
+}
 
 .underh1 {
     position: absolute;
@@ -120,8 +127,18 @@ margin-top: 4px;
     margin-left: 20px;
 }
 
+.roundedpurplesauce{
+    border: 1px solid #B57AD2;
+    box-sizing: border-box;
+    border-radius: 23px;
+    background-color: #B57AD2;
+    color: white;
+    width: 158px;
+    height: 47px;
+    margin-left: 425px;
+}
 
-/* SECTION 1 */
+/* SECTION 1 ABOUT US*/
 #section1{
     position: relative;
 }
@@ -132,12 +149,25 @@ margin-top: 4px;
     margin-bottom: -211px;
     }
 
+    
+.photojump{
+    width:544px;
+    height:895px;
+    margin-top:-251px;
+    }
+
 
 #achievements{
     text-align: center;
 }
 
-/* SECTION 2 */
+
+.lending{
+    width: 896px;
+    margin-bottom: 20px;
+}
+
+/* SECTION 2 OUR SERVICES */
 
 #section2{
     position: relative;
@@ -198,30 +228,31 @@ margin-top: 5px;
 }
 
 
-/* SECTION 3 */
+/* SECTION 3 OUR PROCRESS*/
 
 .three {
 position: absolute;
 width: 704.5px;
-margin-left: 158.50px;
+margin-left: 145.5px;
 z-index: 9;
-margin-top: 42px;
+margin-top: -43px;
 }
 
 .understand, .start, .flexible{
-width: 235px;
-height: 264px;
+width: 234.50px;
+height: 288px;
 display:inline-block;
 overflow: hidden;
-margin-right: -5px;
+margin-right: -4px;
 margin-bottom: 61px;
-margin-top: 0px;
 }
 
 .understand, .flexible{
 background-color: #b57ad2;
-margin-top: 200px;
+margin-top:116px;
 }
+
+
 
 .start{
     background-color:#3490CF;
@@ -232,27 +263,61 @@ margin-top: 200px;
     position:relative;
 }
 
-.row3 , p{
-     font-size: 12px;
+.pprocress{
+    font-size: 11px;
     color: white;
-    line-height: 3px;
+    line-height: 2px;
+    padding-top: 2px;
+margin-left: 26px;
 }
 
 .row3 , h3{
     font-size: 15px;
+    margin-top: 79px;
+    margin-bottom: 36px;
 }
 
 
 .understand{
-    margin-left: 159.50px;
+    margin-left: 145.50px;
 }
 
 
-/* SECTION 4 */
+/* SECTION 4 OUR SECRET SAUCE*/
+
+.line{
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.staying, .protect, .no{
+    width: 235px;
+    height: 288px;
+    display:inline-block;
+    overflow: hidden;
+    margin-right: 7px;
+    margin-bottom: 61px;
+    margin-top: 0px;
+
+    }
+
+
+    .staying{
+        margin-left: 143.50px;
+    }
 
 
 
-/* SECTION 5 */
+
+
+
+.imagesection4{
+    height: 120px;
+    margin-left: 50px;
+}
+
+/* SECTION 5 FOUDER'S MESSAGE*/
 .founder{
 background: linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
 border-radius: 6px;
@@ -260,20 +325,20 @@ border-radius: 6px;
 
 
 
-/* SECTION 6 */
+/* SECTION 6 OUR TEAM*/
 
 
 
-/* SECTION 7 */
+/* SECTION 7 OUR SUCESS STORIES*/
 
 
-/* SECTION 8 */
+/* SECTION 8 TALK TO EXPERT*/
 .contactus{
     position: relative;
 }
 
 .texttalk{
-    
+
 }
 
 /* FOOTER */
