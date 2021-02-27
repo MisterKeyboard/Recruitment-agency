@@ -363,19 +363,18 @@ padding-bottom: 37px;
 
 .ourteam{
     position: relative;
-    background-image: url(img/Oval.svg);
 }
 
 
-
 .oval{
-    position: absolute;
+position: absolute;
+
 width: 1024px;
 height: 576px;
 }
 
 .titleteam{
-    position: relative;
+    
     text-align: center;
     padding-top: 31px;
 }
@@ -386,15 +385,20 @@ font-size: 13px;
 line-height: 28px;
 color: black;
 text-align: center;
-z-index: 12;
+
 }
 
 .cartoon{
     width: 144px;
+    margin-left: 418px;
+    padding-top: 55px;
 }
 
 .teamfive{
     width: 736px;
+    margin-left: 132px;
+    margin-bottom: 86px;
+    margin-top: -170px;
 }
 
 
@@ -419,7 +423,7 @@ z-index: 12;
 /* FOOTER */
 
 footer{
-    position: relative;
+position: relative;
 background-color: #857AD2;
 color: white;
 }
