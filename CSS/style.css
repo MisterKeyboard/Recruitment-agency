@@ -62,9 +62,6 @@ h2{
         text-align: center;
     }
 
-.hsauce{
-    color: white;
-}
 
 .underh1 {
     position: absolute;
@@ -83,14 +80,12 @@ h2{
     line-height: 28px;
 color: black;
     text-align: center;
+    margin-bottom: 33px;
 }
 
-.psuccess{
-    height: 28px;
-    font-size: 13px;
-    line-height: 28px;
-color: black;
-}
+
+
+
 
 .roundempty { 
 border: 1px solid #B57AD2;
@@ -235,7 +230,14 @@ position: absolute;
 width: 704.5px;
 margin-left: 145.5px;
 z-index: 9;
-margin-top: -43px;
+}
+
+
+.hprocress{
+    font-size: 15px;
+    margin-top: 101px;
+    margin-bottom: 36px;
+    color: white;
 }
 
 .understand, .start, .flexible{
@@ -243,7 +245,7 @@ width: 234.50px;
 height: 288px;
 display:inline-block;
 overflow: hidden;
-margin-right: -4px;
+margin-right: -5px;
 margin-bottom: 61px;
 }
 
@@ -271,15 +273,11 @@ margin-top:116px;
 margin-left: 26px;
 }
 
-.row3 , h3{
-    font-size: 15px;
-    margin-top: 79px;
-    margin-bottom: 36px;
-}
+
 
 
 .understand{
-    margin-left: 145.50px;
+    margin-left: 146.50px;
 }
 
 
@@ -299,7 +297,6 @@ margin-left: 26px;
     margin-right: 7px;
     margin-bottom: 61px;
     margin-top: 0px;
-
     }
 
 
@@ -309,7 +306,15 @@ margin-left: 26px;
 
 
 
-
+    
+    
+    .psauce{
+        font-size: 11px;
+        color: white;
+        line-height: 2px;
+        padding-top: 2px;
+        margin-left: 26px;
+    }
 
 
 .imagesection4{
@@ -318,6 +323,7 @@ margin-left: 26px;
 }
 
 /* SECTION 5 FOUDER'S MESSAGE*/
+
 .founder{
 background: linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
 border-radius: 6px;
@@ -327,12 +333,23 @@ border-radius: 6px;
 
 /* SECTION 6 OUR TEAM*/
 
+.oval{
+    position: absolute;
+width:1600px;
+ height:835px;
+}
+
+.ourteam{
+    position: relative;
+}
+
 
 
 /* SECTION 7 OUR SUCESS STORIES*/
 
 
 /* SECTION 8 TALK TO EXPERT*/
+
 .contactus{
     position: relative;
 }
@@ -342,6 +359,7 @@ border-radius: 6px;
 }
 
 /* FOOTER */
+
 footer{
     position: relative;
 background-color: #857AD2;
