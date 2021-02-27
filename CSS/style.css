@@ -457,8 +457,15 @@ margin-bottom: 100px;
 
 /* SECTION 8 TALK TO EXPERT*/
 
-
-
+input , textarea{
+    display: block;
+width: 450px;
+padding: 10px 15px;
+border: solid 1px rgb(184, 183, 183);
+border-radius: 10px;
+margin-bottom: 35px;
+outline: none;
+}
 
 
 
@@ -468,4 +475,19 @@ footer{
 position: relative;
 background-color: #857AD2;
 color: white;
+height: 240px;
+}
+
+.follow, .quick,.company{
+display: inline-block;
+}
+
+.quick a , .company a{
+    color: white;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.menubottom{
+    display: block;
 }
