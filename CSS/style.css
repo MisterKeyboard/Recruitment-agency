@@ -44,17 +44,9 @@ body{
 
 
 /* TITLE PARAGRAPHS AND BUTTONS*/
-h1 {
-    position: absolute;
-    width: 416px;
-    height: 48px;
-    left: 64px;
-    top: 87px;
-    font-size: 25px;
-    color: #3C3C3C;
-}
 
-h2{
+
+.sectiontitle{
     text-align: center;
     }
 
@@ -131,11 +123,22 @@ margin-top: 4px;
     width: 158px;
     height: 47px;
     margin-left: 425px;
+    margin-bottom: 21px;
 }
 
 /* SECTION 1 ABOUT US*/
 #section1{
     position: relative;
+}
+
+h1 {
+    position: absolute;
+    width: 416px;
+    height: 48px;
+    left: 64px;
+    top: 87px;
+    font-size: 25px;
+    color: #3C3C3C;
 }
 
 .row1{
@@ -291,12 +294,11 @@ margin-left: 26px;
 
 .staying, .protect, .no{
     width: 235px;
-    height: 288px;
+    height: 311px;
     display:inline-block;
     overflow: hidden;
     margin-right: 7px;
-    margin-bottom: 61px;
-    margin-top: 0px;
+    margin-bottom: 32px;
     }
 
 
@@ -305,14 +307,10 @@ margin-left: 26px;
     }
 
 
-
-    
-    
     .psauce{
         font-size: 11px;
-        color: white;
-        line-height: 2px;
-        padding-top: 2px;
+        line-height: 6px;
+        padding-top: 5px;
         margin-left: 26px;
     }
 
@@ -327,8 +325,37 @@ margin-left: 26px;
 .founder{
 background: linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
 border-radius: 6px;
+height: 576px;
 }
 
+.john{
+    float: left;
+    width: 288px;
+    margin: 101px 132px auto 80px;
+}
+
+.h2founder{
+padding-top: 100px;
+padding-bottom: 37px;
+}
+
+.pfounder{
+    font-size: 14px;
+    line-height: 6px;
+    font-weight: bold;
+}
+
+.psmall{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+/* LOGOS CUSTOMERS*/
+
+.logoscustomers{
+    width: 1024px;
+}
 
 
 /* SECTION 6 OUR TEAM*/
