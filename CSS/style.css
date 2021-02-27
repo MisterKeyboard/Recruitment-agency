@@ -361,19 +361,43 @@ padding-bottom: 37px;
 
 /* SECTION 6 OUR TEAM*/
 
+.ourteam{
+    position: relative;
+    background-image: url(img/Oval.svg);
+}
+
+
+
 .oval{
     position: absolute;
 width: 1024px;
 height: 576px;
 }
 
-.ourteam{
+.titleteam{
     position: relative;
+    text-align: center;
+    padding-top: 31px;
+}
+
+.psectionteam{
+    height: 5px;
+font-size: 13px;
+line-height: 28px;
+color: black;
+text-align: center;
+z-index: 12;
 }
 
 
 
+
 /* SECTION 7 OUR SUCESS STORIES*/
+
+.increas{
+    float: right;
+}
+
 
 
 /* SECTION 8 TALK TO EXPERT*/
