@@ -457,15 +457,45 @@ margin-bottom: 100px;
 
 /* SECTION 8 TALK TO EXPERT*/
 
+
 input , textarea{
     display: block;
-width: 450px;
-padding: 10px 15px;
+width: 320px;
+padding: 10px 11px;
 border: solid 1px rgb(184, 183, 183);
-border-radius: 10px;
-margin-bottom: 35px;
+border-radius: 5px;
+margin-bottom: 7px;
 outline: none;
 }
+
+.divtalk{
+    position: relative;
+
+}
+
+.texttalk{
+    width: 507px;
+    margin-top: 47px;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.divtalk{
+    background-image:url(/img/Backgroundtalk.svg) ;
+height: 450px;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+
+.titleform{
+    font-size: 15px;
+}
+
+.contactus{
+    margin-left: 563px;
+    margin-top: -359px;
+}
+
 
 
 
@@ -480,14 +510,23 @@ height: 240px;
 
 .follow, .quick,.company{
 display: inline-block;
+position: relative;
+margin-left: 145px;
 }
 
 .quick a , .company a{
     color: white;
     font-size: 12px;
     margin-left: 15px;
+    text-decoration: none;
 }
 
 .menubottom{
     display: block;
+}
+
+small{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -150px;
 }
