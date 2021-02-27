@@ -63,7 +63,7 @@ body{
     line-height: 28px;
 color: black;
     text-align: center;
-    margin-bottom: 33px;
+    margin-bottom: 27px;
 }
 
 .roundempty { 
@@ -178,8 +178,12 @@ border-radius: 6px;
 
 ul{
     list-style: none;
+}
+
+.listservices{
 line-height: 30px;
 }
+
 
 li::before{
     content: "●";color: #B57AD2;
@@ -365,7 +369,6 @@ padding-bottom: 37px;
     height: 5px;
 font-size: 13px;
 line-height: 28px;
-color: black;
 text-align: center;
 }
 
@@ -385,6 +388,10 @@ text-align: center;
 
 
 /* SECTION 7 OUR SUCESS STORIES*/
+;.graphtext{
+position: absolute;
+height: 700px;
+}
 
 .increas{
     float: right;
@@ -403,30 +410,54 @@ padding-top: 32px;
     margin-left: 26px;
 }
 
-.element230{
+.threepercentages{
+margin-bottom: 100px;
+}
 
+.percentage{
+   
+}
+
+.graphtext{
+    position: relative;
+    height: 566px;
+}
+
+.element230{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -286px;
 }
 
 .element200{
-
+    position: absolute;
+    margin-left: 668px;
+    margin-top: -149px;
 }
 
 .element160{
-
+    position: absolute;
+    margin-left: 536px;
+    margin-top: -23px;
 }
 
-
+.roundedpurpletalk{
+    border: 1px solid #B57AD2;
+    box-sizing: border-box;
+    border-radius: 23px;
+    background-color: #B57AD2;
+    color: white;
+    width: 158px;
+    height: 47px;
+    margin-left: 64px;
+    margin-bottom: 36px;
+    margin-top: 45px;
+}
 
 
 /* SECTION 8 TALK TO EXPERT*/
 
-.contactus{
-    position: relative;
-}
 
-.texttalk{
-
-}
 
 
 
