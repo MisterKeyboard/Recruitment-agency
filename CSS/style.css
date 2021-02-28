@@ -1,5 +1,4 @@
 /* HEADER */
-
 header{
     position: relative;
     width: 100%;
@@ -9,25 +8,24 @@ header{
     top: -8px;
 }
 
+
 body{
     font-family: 'HelveticaNeue',Arial,sans-serif;
 }
 
-    .logo{
-        position: absolute;
-        height: 24px;
-        width: 96px;
-        padding-left: 64px;
-        padding-top:2px;
-        padding-bottom: 2px; 
-    }
+.logo{
+    position: absolute;
+    height: 24px;
+    width: 96px;
+    padding-left: 64px;
+    padding-top:2px;
+    padding-bottom: 2px; 
+}
 
 .menutop{
     position: absolute;
     padding-left: 510px;
     padding-top: 2px;
-
-
 }
 
 .menutop a{
@@ -43,7 +41,7 @@ body{
 
 .sectiontitle{
     text-align: center;
-    }
+}
 
 
 .underh1 {
@@ -61,21 +59,21 @@ body{
     height: 28px;
     font-size: 13px;
     line-height: 28px;
-color: black;
+    color: black;
     text-align: center;
     margin-bottom: 27px;
 }
 
 .roundempty { 
-border: 1px solid #B57AD2;
-box-sizing: border-box;
-border-radius: 23px;
-background-color: white;
-color: #B57AD2;
-vertical-align: 0px;
-margin-left: 850px;
-margin-top: 4px;
-    }
+    border: 1px solid #B57AD2;
+    box-sizing: border-box;
+    border-radius: 23px;
+    background-color: white;
+    color: #B57AD2;
+    vertical-align: 0px;
+    margin-left: 850px;
+    margin-top: 4px;
+}
 
 .roundedpurple1 {
     border: 1px solid #B57AD2;
@@ -100,20 +98,10 @@ margin-top: 4px;
     margin-left: 20px;
 }
 
-.roundedpurplesauce{
-    border: 1px solid #B57AD2;
-    box-sizing: border-box;
-    border-radius: 23px;
-    background-color: #B57AD2;
-    color: white;
-    width: 158px;
-    height: 47px;
-    margin-left: 425px;
-    margin-bottom: 21px;
-}
 
 
 
+/* MAIN*/
 
 /* SECTION 1 ABOUT US*/
 
@@ -135,8 +123,8 @@ h1 {
     float: right;
     margin-top: -12px;
     margin-bottom: -211px;
-    }
-    
+}
+
 .photojump{
     width:544px;
     height:895px;
@@ -167,13 +155,13 @@ h1 {
 }
 
 .fourpeoplewithacomputer ,.twopeoplewithacomputer{
-display: inline-block;
-width: 378px;
-height: 480px;
-top: 6px;
-background: #FFFFFF;
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-border-radius: 6px;
+    display: inline-block;
+    width: 378px;
+    height: 480px;
+    top: 6px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
 }
 
 ul{
@@ -181,7 +169,7 @@ ul{
 }
 
 .listservices{
-line-height: 30px;
+    line-height: 30px;
 }
 
 
@@ -196,10 +184,10 @@ li::before{
 }
 
 .fourpeoplewithacomputer{
-margin-left: 61px;
-margin-right: 128px;
-margin-bottom: 144px;
-margin-top: 5px;
+    margin-left: 61px;
+    margin-right: 128px;
+    margin-bottom: 144px;
+    margin-top: 5px;
 }
 
 .twopeoplewithacomputer{
@@ -217,10 +205,10 @@ margin-top: 5px;
 /* SECTION 3 OUR PROCRESS*/
 
 .three {
-position: absolute;
-width: 704.5px;
-margin-left: 145.5px;
-z-index: 9;
+    position: absolute;
+    width: 704.5px;
+    margin-left: 145.5px;
+    z-index: 9;
 }
 
 .hprocress{
@@ -232,22 +220,21 @@ z-index: 9;
 }
 
 .understand, .start, .flexible{
-width: 234.50px;
-height: 288px;
-display:inline-block;
-overflow: hidden;
-margin-right: -5px;
-margin-bottom: 61px;
+    width: 234.50px;
+    height: 288px;
+    display:inline-block;
+    overflow: hidden;
+    margin-right: -5px;
+    margin-bottom: 61px;
 }
 
 .understand, .flexible{
-background-color: #b57ad2;
-margin-top:116px;
+    background-color: #b57ad2;
+    margin-top:116px;
 }
 
 .start{
     background-color:#3490CF;
-    ;
 }
 
 .row3{
@@ -259,7 +246,7 @@ margin-top:116px;
     color: white;
     line-height: 2px;
     padding-top: 2px;
-margin-left: 26px;
+    margin-left: 26px;
 }
 
 .understand{
@@ -277,33 +264,56 @@ margin-left: 26px;
     margin-top: 60px;
 }
 
-.staying, .protect, .no{
-    width: 235px;
-    height: 311px;
+.staying, .protect, .no {
+    width: 246px;
+    height: 351px;
     display:inline-block;
     overflow: hidden;
-    margin-right: 7px;
+    margin-right: 17px;
     margin-bottom: 32px;
-    }
+}
 
-    .staying{
-        margin-left: 143.50px;
-    }
+::before,::after{
+    box-sizing: inherit;
+}
+
+.staying, .protect, .no, :hover{
+background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+border-radius: 8px;
+}
+
+.staying{
+    margin-left: 109.50px;
+}
 
 .hsauce{
     text-align:center ;
 }
 
-    .psauce{
-        font-size: 11px;
-        line-height: 6px;
-        padding-top: 5px;
-        margin-left: 26px;
+.psauce{
+    text-align:center;
+    font-size: 11px;
+    line-height: 6px;
+    padding-top: 5px;
     }
 
 .imagesection4{
     height: 120px;
-    margin-left: 50px;
+    margin-left: 62px;
+    margin-top: 20px;
+}
+
+.roundedpurplesauce{
+    border: 1px solid #B57AD2;
+    box-sizing: border-box;
+    border-radius: 23px;
+    background-color: #B57AD2;
+    color: white;
+    width: 158px;
+    height: 47px;
+    margin-left: 417px;
+    margin-bottom: 21px;
 }
 
 
@@ -312,9 +322,9 @@ margin-left: 26px;
 /* SECTION 5 FOUDER'S MESSAGE*/
 
 .founder{
-background: linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
-border-radius: 6px;
-height: 576px;
+    background: linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+    border-radius: 6px;
+    height: 576px;
 }
 
 .john{
@@ -324,8 +334,8 @@ height: 576px;
 }
 
 .h2founder{
-padding-top: 100px;
-padding-bottom: 37px;
+    padding-top: 100px;
+    padding-bottom: 37px;
 }
 
 .pfounder{
@@ -345,7 +355,6 @@ padding-bottom: 37px;
 
 .logoscustomers{
     width: 1024px;
-    
 }
 
 
@@ -527,6 +536,7 @@ position: relative;
 background-color: #857AD2;
 color: white;
 height: 240px;
+padding: 25px;
 }
 
 .follow, .quick,.company{
@@ -546,8 +556,25 @@ margin-left: 145px;
     display: block;
 }
 
+.company{
+    height: 150px;
+    margin-top: 12px;
+}
+
+.quick{
+
+
+}
+
+
+
 small{
     position: absolute;
     margin-top: 60px;
     margin-left: -150px;
+}
+
+.buttonfollow{
+    border: 1px solid #857AD2;
+    background-color: #857AD2;
 }
