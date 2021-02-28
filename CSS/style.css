@@ -8,6 +8,9 @@ header{
     top: -8px;
 }
 
+button{
+    cursor: url('img/Pointer.svg'),pointer;
+}
 
 body{
     font-family: 'HelveticaNeue',Arial,sans-serif;
@@ -534,7 +537,6 @@ padding-top: 50px;
     color: white;
     width: 158px;
     height: 47px;
-    margin-left: 64px;
     margin-bottom: 36px;
     margin-top: 45px;
 }
@@ -547,13 +549,12 @@ position: relative;
 background-color: #857AD2;
 color: white;
 height: 240px;
-padding: 25px;
 }
 
 .follow, .quick,.company{
 display: inline-block;
-position: relative;
-margin-left: 145px;
+position: absolute;
+margin-top: 16px;
 }
 
 .quick a , .company a{
@@ -568,24 +569,27 @@ margin-left: 145px;
 }
 
 .company{
-    height: 150px;
-    margin-top: 12px;
+    margin-left: 131px;
 }
 
 .quick{
+    margin-left: 308px;
+}
 
+.follow{
+    margin-left: 566px;
+}
 
+.buttonfollow{
+    border: 1px solid #857AD2;
+    background-color: #857AD2;
+    margin-top: 10px;
 }
 
 
 
 small{
     position: absolute;
-    margin-top: 60px;
-    margin-left: -150px;
-}
-
-.buttonfollow{
-    border: 1px solid #857AD2;
-    background-color: #857AD2;
+    margin-top: 217px;
+    margin-left: -127px;
 }
