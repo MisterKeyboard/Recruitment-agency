@@ -395,9 +395,8 @@ height: 700px;
 
 .increas{
     float: right;
-    width: 467px;
-    height: 448px;
-    margin-top: -109px;
+    width: 477px;
+    margin-top: -101px;
 }
 
 .h2success{
@@ -419,7 +418,7 @@ padding-top: 32px;
 }
 
 .ulsuccess{
-margin-top: 139px;
+margin-top: 120px;
 }
 
 .lisuccess{
@@ -427,30 +426,40 @@ margin-top: 139px;
 }
 
 .percentageright{
-    font-size: 25px;  
+    font-size: 24px; 
+    margin-bottom: 29px; 
 }
 
 .graphtext{
     position: relative;
-    height: 566px;
+    height: 493px;
 }
 
 .element230{
     position: absolute;
-    margin-left: 750px;
-    margin-top: -286px;
+    margin-left: 771px;
+    margin-top: -459px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 0px;
 }
 
 .element200{
     position: absolute;
-    margin-left: 668px;
-    margin-top: -149px;
+    margin-left: 685px;
+    margin-top: -313px;
+    text-align: center;
+font-size: 12px;
+line-height: 0px;
 }
 
 .element160{
     position: absolute;
-    margin-left: 536px;
-    margin-top: -23px;
+    margin-left: 543px;
+    margin-top: -163px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 0px;
 }
 
 
