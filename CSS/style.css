@@ -388,7 +388,7 @@ text-align: center;
 
 
 /* SECTION 7 OUR SUCESS STORIES*/
-;.graphtext{
+.graphtext{
 position: absolute;
 height: 700px;
 }
@@ -396,6 +396,8 @@ height: 700px;
 .increas{
     float: right;
     width: 467px;
+    height: 448px;
+    margin-top: -109px;
 }
 
 .h2success{
@@ -404,18 +406,28 @@ padding-top: 32px;
 }
 
 .psuccess{
-    font-size: 12px;
-    line-height: 6px;
+    font-size: 14px;
+    line-height: 4px;
     padding-top: 5px;
     margin-left: 26px;
 }
 
-.threepercentages{
-margin-bottom: 100px;
+
+.percentageleft{
+    font-size: 18px;
+    margin-left: 16px; 
 }
 
-.percentage{
-   
+.ulsuccess{
+margin-top: 139px;
+}
+
+.lisuccess{
+    margin-top: 70px;
+}
+
+.percentageright{
+    font-size: 25px;  
 }
 
 .graphtext{
@@ -441,18 +453,7 @@ margin-bottom: 100px;
     margin-top: -23px;
 }
 
-.roundedpurpletalk{
-    border: 1px solid #B57AD2;
-    box-sizing: border-box;
-    border-radius: 23px;
-    background-color: #B57AD2;
-    color: white;
-    width: 158px;
-    height: 47px;
-    margin-left: 64px;
-    margin-bottom: 36px;
-    margin-top: 45px;
-}
+
 
 
 /* SECTION 8 TALK TO EXPERT*/
@@ -496,7 +497,18 @@ padding-top: 50px;
     margin-top: -359px;
 }
 
-
+.roundedpurpletalk{
+    border: 1px solid #B57AD2;
+    box-sizing: border-box;
+    border-radius: 23px;
+    background-color: #B57AD2;
+    color: white;
+    width: 158px;
+    height: 47px;
+    margin-left: 64px;
+    margin-bottom: 36px;
+    margin-top: 45px;
+}
 
 
 /* FOOTER */
