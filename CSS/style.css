@@ -37,36 +37,6 @@ body{
     font-size: 12px;
 }
 
-
-
-
-/* TITLE PARAGRAPHS AND BUTTONS*/
-
-.sectiontitle{
-    text-align: center;
-}
-
-
-.underh1 {
-    position: absolute;
-    width: 381px;
-    height: 28px;
-    left: 64px;
-    font-size: 13px;
-    line-height: 28px;
-    color: #3C3C3C;
-    margin-top: 180px;
-}
-
-.psection{
-    height: 28px;
-    font-size: 13px;
-    line-height: 28px;
-    color: black;
-    text-align: center;
-    margin-bottom: 27px;
-}
-
 .roundempty { 
     border: 1px solid #B57AD2;
     box-sizing: border-box;
@@ -78,31 +48,21 @@ body{
     margin-top: 4px;
 }
 
-.roundedpurple1 {
-    border: 1px solid #B57AD2;
-    box-sizing: border-box;
-    border-radius: 23px;
-    background-color: #B57AD2;
-    color: white;
-    width: 158px;
-    height: 47px;
-    margin-top: 256px;
-    margin-left: 64px;
+
+/* REGLES GENERALES*/
+
+.sectiontitle{
+    text-align: center;
 }
 
-.roundedpurple2 {
-    border: 1px solid #B57AD2;
-    box-sizing: border-box;
-    border-radius: 23px;
-    background-color: #B57AD2;
-    color: white;
-    width: 158px;
-    height: 47px;
-    margin-left: 20px;
+.psection{
+    height: 28px;
+    font-size: 13px;
+    line-height: 28px;
+    color: black;
+    text-align: center;
+    margin-bottom: 27px;
 }
-
-
-
 
 /* MAIN*/
 
@@ -120,6 +80,17 @@ h1 {
     top: 87px;
     font-size: 25px;
     color: #3C3C3C;
+}
+
+.underh1 {
+    position: absolute;
+    width: 381px;
+    height: 28px;
+    left: 64px;
+    font-size: 13px;
+    line-height: 28px;
+    color: #3C3C3C;
+    margin-top: 180px;
 }
 
 .row1{
@@ -167,14 +138,14 @@ h1 {
     border-radius: 6px;
 }
 
-ul{
-    list-style: none;
-}
 
 .listservices{
     line-height: 30px;
 }
 
+ul{
+    list-style: none;
+}
 
 li::before{
     content: "●";color: #B57AD2;
@@ -199,6 +170,29 @@ li::before{
 }
 
 .fourpeoplewithacomputer P ,.twopeoplewithacomputer P{
+    margin-left: 20px;
+}
+
+.roundedpurple1 {
+    border: 1px solid #B57AD2;
+    box-sizing: border-box;
+    border-radius: 23px;
+    background-color: #B57AD2;
+    color: white;
+    width: 158px;
+    height: 47px;
+    margin-top: 256px;
+    margin-left: 64px;
+}
+
+.roundedpurple2 {
+    border: 1px solid #B57AD2;
+    box-sizing: border-box;
+    border-radius: 23px;
+    background-color: #B57AD2;
+    color: white;
+    width: 158px;
+    height: 47px;
     margin-left: 20px;
 }
 
@@ -279,9 +273,9 @@ li::before{
 
 
 .staying:hover{
-background: #FFFFFF;
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
 }
 
 
@@ -501,11 +495,6 @@ margin-bottom: 7px;
 outline: none;
 }
 
-.divtalk{
-    position: relative;
-
-}
-
 .texttalk{
     width: 507px;
     margin-top: 47px;
@@ -514,10 +503,11 @@ outline: none;
 }
 
 .divtalk{
+    position: relative;
     background-image:url(/img/Backgroundtalk.svg) ;
-height: 450px;
-padding-bottom: 50px;
-padding-top: 50px;
+    height: 450px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .titleform{
@@ -560,7 +550,6 @@ margin-top: 16px;
 .quick a , .company a{
     color: white;
     font-size: 12px;
-    margin-left: 15px;
     text-decoration: none;
 }
 
@@ -585,8 +574,6 @@ margin-top: 16px;
     background-color: #857AD2;
     margin-top: 10px;
 }
-
-
 
 small{
     position: absolute;
