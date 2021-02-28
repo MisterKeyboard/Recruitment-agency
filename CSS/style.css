@@ -27,12 +27,12 @@ body{
 
 .menutop{
     position: absolute;
-    padding-left: 510px;
+    padding-left: 531px;
     padding-top: 2px;
 }
 
 .menutop a{
-    margin-left: 26px;
+    margin-left: 15px;
     color: #3C3C3C;
     font-size: 12px;
 }
@@ -580,3 +580,5 @@ small{
     margin-top: 217px;
     margin-left: -127px;
 }
+
+/* FINISHED */
