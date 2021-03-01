@@ -20,15 +20,15 @@ body{
     position: absolute;
     height: 24px;
     width: 96px;
-    padding-left: 64px;
     padding-top:2px;
     padding-bottom: 2px; 
+    padding-left: 64px;
 }
 
 .menutop{
     position: absolute;
-    padding-left: 531px;
     padding-top: 2px;
+    padding-left: 531px;
 }
 
 .menutop a{
@@ -44,8 +44,8 @@ body{
     background-color: white;
     color: #B57AD2;
     vertical-align: 0px;
-    margin-left: 850px;
     margin-top: 4px;
+    margin-left: 850px;
 }
 
 
@@ -158,15 +158,12 @@ li::before{
 }
 
 .fourpeoplewithacomputer{
-    margin-left: 61px;
-    margin-right: 128px;
-    margin-bottom: 144px;
-    margin-top: 5px;
+    margin: 5px 128px 144px 61px;
 }
 
 .twopeoplewithacomputer{
-    margin-bottom: 144px;
     margin-top: 5px;
+    margin-bottom: 144px;
 }
 
 .fourpeoplewithacomputer P ,.twopeoplewithacomputer P{
@@ -257,8 +254,8 @@ li::before{
 
 .line{
     position: relative;
-    margin-bottom: 60px;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .staying, .protect, .no {
@@ -308,8 +305,8 @@ li::before{
 
 .imagesection4{
     height: 120px;
-    margin-left: 62px;
     margin-top: 20px;
+    margin-left: 62px;
 }
 
 .roundedpurplesauce{
@@ -320,8 +317,8 @@ li::before{
     color: white;
     width: 158px;
     height: 47px;
-    margin-left: 417px;
     margin-bottom: 21px;
+    margin-left: 417px;
 }
 
 
@@ -384,21 +381,21 @@ li::before{
 
 .psectionteam{
     height: 5px;
-font-size: 13px;
-line-height: 28px;
-text-align: center;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
 }
 
 .cartoon{
     width: 144px;
-    margin-left: 418px;
     padding-top: 55px;
+    margin-left: 418px;
 }
 
 .teamfive{
     width: 736px;
-    margin-left: 132px;
     margin-top: -170px;
+    margin-left: 132px;
 }
 
 
@@ -454,8 +451,8 @@ margin-top: 120px;
 
 .element230{
     position: absolute;
-    margin-left: 771px;
     margin-top: -459px;
+    margin-left: 771px;
     text-align: center;
     font-size: 12px;
     line-height: 0px;
@@ -463,17 +460,17 @@ margin-top: 120px;
 
 .element200{
     position: absolute;
-    margin-left: 685px;
     margin-top: -313px;
+    margin-left: 685px;
     text-align: center;
-font-size: 12px;
-line-height: 0px;
+    font-size: 12px;
+    line-height: 0px;
 }
 
 .element160{
     position: absolute;
-    margin-left: 543px;
     margin-top: -163px;
+    margin-left: 543px;
     text-align: center;
     font-size: 12px;
     line-height: 0px;
@@ -498,8 +495,8 @@ outline: none;
 .texttalk{
     width: 507px;
     margin-top: 47px;
-    font-size: 12px;
     margin-left: 40px;
+    font-size: 12px;
 }
 
 .divtalk{
@@ -515,8 +512,8 @@ outline: none;
 }
 
 .contactus{
-    margin-left: 563px;
     margin-top: -359px;
+    margin-left: 563px;
 }
 
 .roundedpurpletalk{
@@ -527,8 +524,8 @@ outline: none;
     color: white;
     width: 158px;
     height: 47px;
-    margin-bottom: 36px;
     margin-top: 45px;
+    margin-bottom: 36px;
 }
 
 
