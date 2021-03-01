@@ -8,7 +8,7 @@ header{
 }
 
 button{
-    cursor: url('img/Pointer.svg'),pointer;
+    cursor: url('../img/Pointer.svg'),pointer;
 }
 
 body{
@@ -37,7 +37,7 @@ body{
     font-size: 12px;
 }
 
-.roundempty { 
+.roundempty{ 
     border: 1px solid #B57AD2;
     box-sizing: border-box;
     border-radius: 23px;
@@ -72,7 +72,7 @@ body{
     position: relative;
 }
 
-h1 {
+h1{
     position: absolute;
     width: 416px;
     height: 48px;
@@ -82,7 +82,7 @@ h1 {
     color: #3C3C3C;
 }
 
-.underh1 {
+.underh1{
     position: absolute;
     width: 381px;
     height: 28px;
@@ -123,7 +123,7 @@ h1 {
     position: relative;
 }
 
-.text-center {
+.text-center{
     text-align: center;
     margin-bottom: 25px;
 }
@@ -170,7 +170,7 @@ li::before{
     margin-left: 20px;
 }
 
-.roundedpurple1 {
+.roundedpurple1{
     border: 1px solid #B57AD2;
     box-sizing: border-box;
     border-radius: 23px;
@@ -182,7 +182,7 @@ li::before{
     margin-left: 64px;
 }
 
-.roundedpurple2 {
+.roundedpurple2{
     border: 1px solid #B57AD2;
     box-sizing: border-box;
     border-radius: 23px;
@@ -198,7 +198,7 @@ li::before{
 
 /* SECTION 3 OUR PROCRESS*/
 
-.three {
+.three{
     position: absolute;
     width: 704.5px;
     margin-left: 145.5px;
@@ -258,7 +258,7 @@ li::before{
     margin-bottom: 60px;
 }
 
-.staying, .protect, .no {
+.staying, .protect, .no{
     width: 246px;
     height: 351px;
     display:inline-block;
@@ -369,7 +369,7 @@ li::before{
 
 .ourteam{
     position: relative;
-    background-image:url(/img/Oval.svg) ;
+    background-image:url(../img/Oval.svg);
     background-size: 1024px;
     height: 535px;
 }
